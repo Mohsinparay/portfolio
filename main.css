@@ -119,6 +119,13 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+#preloader {
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 h1,
 h2,
