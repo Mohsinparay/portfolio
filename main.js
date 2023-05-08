@@ -1,4 +1,10 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
+window.addEventListener("load", function() {
+  var preloader = document.getElementById("preloader");
+  preloader.style.display = "none";
+});
+
+
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
