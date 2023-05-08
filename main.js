@@ -1,8 +1,11 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
 window.addEventListener("load", function() {
   var preloader = document.getElementById("preloader");
-  preloader.style.display = "none";
+  setTimeout(function() {
+    preloader.style.display = "none";
+  }, 1000);
 });
+
 
 
 const navMenu = document.getElementById("nav-menu"),
